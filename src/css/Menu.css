@@ -1,0 +1,105 @@
+.Menu{
+    display: flex;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  .grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .column {
+    background-color: #ccc;
+  }  
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 26px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  
+  img{
+    width: 200px;
+    height: 55px;
+  }
+
+  .card #Carrera{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; /* Agrega un margen izquierdo para separación */
+  }
+
+  .Columnas{
+    margin-top: 150px;
+    background-color: #EEF0F2;
+    color: #7C0B2B ;
+    border-radius: 15px;
+  
+  }
+
+  #col-1{
+    background-color: #EEF0F2;
+
+  }
+
+  #col-2{
+    background-color: #DADDD8;
+    color: #7C0B2B ;
+  }
+
+  .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+
+  }
+  
+  .nav-link:hover {
+    background-color: #368F8B;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+  
+    transition: opacity 0.2s ease-in-out;
+  
+    &:hover {
+      opacity: 0.8;
+    }
+  
+    &:active {
+      opacity: 1;
+      transform: scale(1.1);
+      transition-delay: 0.1s;
+    }
+    
+  }
+  
+  .nav-link.active {
+    background-color: #218838;
+    color: #368F8B;
+  }
+  
+
